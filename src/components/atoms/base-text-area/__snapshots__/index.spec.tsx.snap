@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseTextArea should render a hidden text area 1`] = `
+<div>
+  <div
+    class="hidden mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Label
+    </label>
+    <div
+      class="relative"
+    >
+      <textarea
+        aria-invalid="false"
+        aria-label="Label"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:focus:border-primary enabled:focus:ring-primary"
+        hidden=""
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BaseTextArea should render a text area 1`] = `
+<div>
+  <div
+    class="mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Label
+    </label>
+    <div
+      class="relative"
+    >
+      <textarea
+        aria-invalid="false"
+        aria-label="Label"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:focus:border-primary enabled:focus:ring-primary"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BaseTextArea should render a text area with error message 1`] = `
+<div>
+  <div
+    class="mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Label
+    </label>
+    <div
+      class="relative"
+    >
+      <textarea
+        aria-invalid="true"
+        aria-label="Label"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:border-red-500 enabled:focus:ring-red-500"
+      />
+    </div>
+    <span
+      class="text-sm mt-1 text-red-500"
+    >
+      Error
+    </span>
+  </div>
+</div>
+`;
+
+exports[`BaseTextArea should render a text area with placeholder 1`] = `
+<div>
+  <div
+    class="mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Label
+    </label>
+    <div
+      class="relative"
+    >
+      <textarea
+        aria-invalid="false"
+        aria-label="Label"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:focus:border-primary enabled:focus:ring-primary"
+        placeholder="Placeholder"
+      />
+    </div>
+  </div>
+</div>
+`;
