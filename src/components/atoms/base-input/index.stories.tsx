@@ -42,6 +42,13 @@ Required.args = {
   required: true,
 };
 
+export const Prefix = Template.bind({});
+Prefix.args = {
+  label: "Label",
+  placeholder: "Placeholder",
+  hasPrefix: true,
+};
+
 const PasswordTemplate: ComponentStory<typeof BaseInput> = (args) => {
   const [isVisible, setIsVisible] = useState(false);
 

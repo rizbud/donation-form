@@ -5,7 +5,7 @@ export const notOnlyDigits = (val?: string) =>
   val !== undefined && val.length > 0 && !/^[0-9]+$/.test(val);
 
 export const formValidation = yup.object().shape({
-  amount: yup.number().required("Amount is required."),
+  amount: yup.string().required("Amount is required."),
   name: yup.string().required("Name is required."),
   email: yup.string().email("Invalid email.").required("Email is required."),
   id_number: yup
@@ -15,6 +15,7 @@ export const formValidation = yup.object().shape({
   postal_code: yup
     .string()
     .min(6, "Minimum 6 digits.")
+    .max(6, "Maximum 6 digits.")
     .required("Postal code is required."),
   unit_number: yup
     .string()

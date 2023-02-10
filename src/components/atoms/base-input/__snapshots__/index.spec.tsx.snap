@@ -3,20 +3,20 @@
 exports[`BaseInput should render a email input 1`] = `
 <div>
   <div
-    class="mb-4"
+    class="mb-6"
   >
     <label
-      class="block text-base font-semibold text-slate-800 mb-2"
+      class="block text-sm font-semibold text-slate-800 mb-1"
     >
       Email
     </label>
     <div
-      class="relative"
+      class="relative flex items-center"
     >
       <input
         aria-invalid="false"
         aria-label="Email"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:focus:border-primary enabled:focus:ring-primary"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
         type="email"
       />
     </div>
@@ -27,20 +27,20 @@ exports[`BaseInput should render a email input 1`] = `
 exports[`BaseInput should render a hidden text input 1`] = `
 <div>
   <div
-    class="hidden mb-4"
+    class="hidden mb-6"
   >
     <label
-      class="block text-base font-semibold text-slate-800 mb-2"
+      class="block text-sm font-semibold text-slate-800 mb-1"
     >
       Label
     </label>
     <div
-      class="relative"
+      class="relative flex items-center"
     >
       <input
         aria-invalid="false"
         aria-label="Label"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:focus:border-primary enabled:focus:ring-primary"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
         hidden=""
         type="text"
       />
@@ -52,20 +52,20 @@ exports[`BaseInput should render a hidden text input 1`] = `
 exports[`BaseInput should render a hidden text input 2`] = `
 <div>
   <div
-    class="mb-4"
+    class="mb-6"
   >
     <label
-      class="block text-base font-semibold text-slate-800 mb-2"
+      class="block text-sm font-semibold text-slate-800 mb-1"
     >
       Label
     </label>
     <div
-      class="relative hidden"
+      class="relative flex items-center hidden"
     >
       <input
         aria-invalid="false"
         aria-label="Label"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:focus:border-primary enabled:focus:ring-primary"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
         type="hidden"
       />
     </div>
@@ -76,20 +76,20 @@ exports[`BaseInput should render a hidden text input 2`] = `
 exports[`BaseInput should render a password input with action icon eye and onClick event 1`] = `
 <div>
   <div
-    class="mb-4"
+    class="mb-6"
   >
     <label
-      class="block text-base font-semibold text-slate-800 mb-2"
+      class="block text-sm font-semibold text-slate-800 mb-1"
     >
       Password
     </label>
     <div
-      class="relative"
+      class="relative flex items-center"
     >
       <input
         aria-invalid="false"
         aria-label="Password"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:focus:border-primary enabled:focus:ring-primary pr-10"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary pr-10"
         type="password"
       />
       <button
@@ -109,20 +109,20 @@ exports[`BaseInput should render a password input with action icon eye and onCli
 exports[`BaseInput should render a text input 1`] = `
 <div>
   <div
-    class="mb-4"
+    class="mb-6"
   >
     <label
-      class="block text-base font-semibold text-slate-800 mb-2"
+      class="block text-sm font-semibold text-slate-800 mb-1"
     >
       Label
     </label>
     <div
-      class="relative"
+      class="relative flex items-center"
     >
       <input
         aria-invalid="false"
         aria-label="Label"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:focus:border-primary enabled:focus:ring-primary"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
         type="text"
       />
     </div>
@@ -133,20 +133,20 @@ exports[`BaseInput should render a text input 1`] = `
 exports[`BaseInput should render a text input with error message 1`] = `
 <div>
   <div
-    class="mb-4"
+    class="mb-6"
   >
     <label
-      class="block text-base font-semibold text-slate-800 mb-2"
+      class="block text-sm font-semibold text-slate-800 mb-1"
     >
       Label
     </label>
     <div
-      class="relative"
+      class="relative flex items-center"
     >
       <input
         aria-invalid="true"
         aria-label="Label"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1 enabled:border-red-500 enabled:focus:ring-red-500"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:border-red-500 enabled:focus:ring-red-500"
         type="text"
       />
     </div>
@@ -155,6 +155,35 @@ exports[`BaseInput should render a text input with error message 1`] = `
     >
       Error
     </span>
+  </div>
+</div>
+`;
+
+exports[`BaseInput should render a text input with error message 2`] = `
+<div>
+  <div
+    class="mb-6"
+  >
+    <label
+      class="block text-sm font-semibold text-slate-800 mb-1"
+    >
+      Label
+    </label>
+    <div
+      class="relative flex items-center"
+    >
+      <span
+        class="absolute inset-y-0 left-0 flex items-center pb-px"
+      >
+        $
+      </span>
+      <input
+        aria-invalid="false"
+        aria-label="Label"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary pl-4"
+        type="text"
+      />
+    </div>
   </div>
 </div>
 `;
