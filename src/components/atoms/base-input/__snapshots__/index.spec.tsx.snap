@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseInput should render a email input 1`] = `
+<div>
+  <div
+    class="mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Email
+    </label>
+    <div
+      class="relative false"
+    >
+      <input
+        aria-invalid="false"
+        aria-label="Email"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1
+              enabled:focus:border-primary enabled:focus:ring-primary
+              undefined
+              undefined"
+        type="email"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BaseInput should render a hidden text input 1`] = `
+<div>
+  <div
+    class="hidden mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Label
+    </label>
+    <div
+      class="relative false"
+    >
+      <input
+        aria-invalid="false"
+        aria-label="Label"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1
+              enabled:focus:border-primary enabled:focus:ring-primary
+              undefined
+              undefined"
+        hidden=""
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BaseInput should render a hidden text input 2`] = `
+<div>
+  <div
+    class="mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Label
+    </label>
+    <div
+      class="relative hidden"
+    >
+      <input
+        aria-invalid="false"
+        aria-label="Label"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1
+              enabled:focus:border-primary enabled:focus:ring-primary
+              undefined
+              undefined"
+        type="hidden"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BaseInput should render a password input with action icon eye and onClick event 1`] = `
+<div>
+  <div
+    class="mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Password
+    </label>
+    <div
+      class="relative false"
+    >
+      <input
+        aria-invalid="false"
+        aria-label="Password"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1
+              enabled:focus:border-primary enabled:focus:ring-primary
+              pr-10
+              undefined"
+        type="password"
+      />
+      <button
+        class="absolute inset-y-0 right-0 flex items-center pr-3"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="text-gray-600 h-6 w-6"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BaseInput should render a text input 1`] = `
+<div>
+  <div
+    class="mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Label
+    </label>
+    <div
+      class="relative false"
+    >
+      <input
+        aria-invalid="false"
+        aria-label="Label"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1
+              enabled:focus:border-primary enabled:focus:ring-primary
+              undefined
+              undefined"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BaseInput should render a text input with error message 1`] = `
+<div>
+  <div
+    class="mb-4"
+  >
+    <label
+      class="block text-base font-semibold text-slate-800 mb-2"
+    >
+      Label
+    </label>
+    <div
+      class="relative false"
+    >
+      <input
+        aria-invalid="true"
+        aria-label="Label"
+        class="placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1
+              enabled:border-red-500 enabled:focus:ring-red-500
+              undefined
+              undefined"
+        type="text"
+      />
+    </div>
+    <span
+      class="text-sm mt-1 text-red-500"
+    >
+      Error
+    </span>
+  </div>
+</div>
+`;
