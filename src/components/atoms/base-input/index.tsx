@@ -71,7 +71,7 @@ export const BaseInput = forwardRef<HTMLInputElement, BaseInputProps>(
             type={type ?? "text"}
             ref={ref}
             className={clsx(
-              "placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0",
+              "placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0",
               error
                 ? "enabled:border-red-500 enabled:focus:ring-red-500"
                 : "enabled:focus:border-primary enabled:focus:ring-primary",
@@ -88,7 +88,7 @@ export const BaseInput = forwardRef<HTMLInputElement, BaseInputProps>(
               onClick={action.onClick}
             >
               <action.icon
-                className="text-gray-600 h-6 w-6"
+                className="text-secondary h-6 w-6"
                 aria-hidden="true"
               />
             </button>

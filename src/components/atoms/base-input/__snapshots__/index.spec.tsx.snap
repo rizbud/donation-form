@@ -16,7 +16,7 @@ exports[`BaseInput should render a email input 1`] = `
       <input
         aria-invalid="false"
         aria-label="Email"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+        class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
         type="email"
       />
     </div>
@@ -40,7 +40,7 @@ exports[`BaseInput should render a hidden text input 1`] = `
       <input
         aria-invalid="false"
         aria-label="Label"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+        class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
         hidden=""
         type="text"
       />
@@ -65,7 +65,7 @@ exports[`BaseInput should render a hidden text input 2`] = `
       <input
         aria-invalid="false"
         aria-label="Label"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+        class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
         type="hidden"
       />
     </div>
@@ -89,7 +89,7 @@ exports[`BaseInput should render a password input with action icon eye and onCli
       <input
         aria-invalid="false"
         aria-label="Password"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary pr-10"
+        class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary pr-10"
         type="password"
       />
       <button
@@ -98,7 +98,7 @@ exports[`BaseInput should render a password input with action icon eye and onCli
       >
         <svg
           aria-hidden="true"
-          class="text-gray-600 h-6 w-6"
+          class="text-secondary h-6 w-6"
         />
       </button>
     </div>
@@ -122,7 +122,7 @@ exports[`BaseInput should render a text input 1`] = `
       <input
         aria-invalid="false"
         aria-label="Label"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+        class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
         type="text"
       />
     </div>
@@ -146,7 +146,7 @@ exports[`BaseInput should render a text input with error message 1`] = `
       <input
         aria-invalid="true"
         aria-label="Label"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:border-red-500 enabled:focus:ring-red-500"
+        class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:border-red-500 enabled:focus:ring-red-500"
         type="text"
       />
     </div>
@@ -180,7 +180,7 @@ exports[`BaseInput should render a text input with error message 2`] = `
       <input
         aria-invalid="false"
         aria-label="Label"
-        class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary pl-4"
+        class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary pl-4"
         type="text"
       />
     </div>

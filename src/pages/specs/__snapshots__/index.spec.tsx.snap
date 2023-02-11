@@ -4,7 +4,7 @@ exports[`Index renders successfully 1`] = `
 <body>
   <div>
     <main
-      class="font-sans min-h-screen bg-gray-100 overflow-x-hidden lg:overflow-x-auto"
+      class="font-sans min-h-screen bg-slate-100 overflow-x-hidden lg:overflow-x-auto"
     >
       <div
         class="w-full xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto my-5"
@@ -43,7 +43,7 @@ exports[`Index renders successfully 1`] = `
                     <input
                       aria-invalid="false"
                       aria-label="Amount"
-                      class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary pl-4"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary pl-4"
                       placeholder="10"
                       type="text"
                       value=""
@@ -69,7 +69,7 @@ exports[`Index renders successfully 1`] = `
                     <input
                       aria-invalid="false"
                       aria-label="Name"
-                      class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
                       name="name"
                       placeholder="John Doe"
                       type="text"
@@ -95,7 +95,7 @@ exports[`Index renders successfully 1`] = `
                     <input
                       aria-invalid="false"
                       aria-label="Email"
-                      class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
                       name="email"
                       placeholder="johndoe@gmail.com"
                       type="email"
@@ -121,7 +121,7 @@ exports[`Index renders successfully 1`] = `
                     <input
                       aria-invalid="false"
                       aria-label="ID Number (NRIC/FIN)"
-                      class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
                       maxlength="9"
                       name="id_number"
                       placeholder="S1234567A"
@@ -148,7 +148,7 @@ exports[`Index renders successfully 1`] = `
                     <input
                       aria-invalid="false"
                       aria-label="Postal Code"
-                      class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
                       maxlength="6"
                       name="postal_code"
                       placeholder="123456"
@@ -175,7 +175,7 @@ exports[`Index renders successfully 1`] = `
                     <input
                       aria-invalid="false"
                       aria-label="Unit Number"
-                      class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
                       name="unit_number"
                       placeholder="123-45"
                       type="text"
@@ -196,7 +196,7 @@ exports[`Index renders successfully 1`] = `
                     <textarea
                       aria-invalid="false"
                       aria-label="Address"
-                      class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
                       name="address"
                       placeholder="Street Name
 Block Number, Building Name"
@@ -218,7 +218,7 @@ Block Number, Building Name"
                     <textarea
                       aria-invalid="false"
                       aria-label="Remarks"
-                      class="placeholder:text-gray-400 text-black border-gray-300 block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
                       name="remarks"
                       placeholder="Optional"
                       rows="1"
