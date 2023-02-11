@@ -40,8 +40,14 @@ describe("BaseInput", () => {
     expect(screen.getByText("Error")).toBeInTheDocument();
   });
 
-  it("should render a text input with error message", () => {
+  it("should render a text input with prefix", () => {
     render(<BaseInput label="Label" type="text" hasPrefix />);
+
+    expect(screen.getByRole("textbox")).toBeInTheDocument();
+  });
+
+  it("should render a text input with prefix and error message", () => {
+    render(<BaseInput label="Label" type="text" hasPrefix error="Error" />);
 
     expect(screen.getByRole("textbox")).toBeInTheDocument();
   });
