@@ -27,9 +27,9 @@ export const BaseButton = (props: BaseButtonProps) => {
   const btnStyle = useMemo(() => {
     switch (btnType) {
       case "primary":
-        return "bg-blue-500 text-white";
+        return "bg-primary text-white";
       case "secondary":
-        return "bg-white text-gray-600";
+        return "bg-white text-secondary";
       case "tertiary":
         return "bg-red-500 text-white";
     }
@@ -40,7 +40,7 @@ export const BaseButton = (props: BaseButtonProps) => {
       case "primary":
         return "text-white fill-white";
       case "secondary":
-        return "text-gray-600 fill-gray-600";
+        return "text-secondary fill-secondary";
       case "tertiary":
         return "text-white fill-white";
     }

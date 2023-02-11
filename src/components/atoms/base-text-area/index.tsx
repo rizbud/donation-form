@@ -19,18 +19,18 @@ export const BaseTextArea = forwardRef<HTMLTextAreaElement, BaseTextAreaProps>(
       <div
         className={clsx(
           restProps.hidden && "hidden",
-          "mb-4",
+          "mb-6",
           containerClassName,
         )}
       >
         {label && (
           <label
             htmlFor={restProps.id}
-            className="block text-base font-semibold text-slate-800 mb-2"
+            className="block text-sm font-semibold text-slate-800 mb-2"
           >
             {label}
             {restProps.required && (
-              <span className="text-red-500 text-sm font-normal">*</span>
+              <span className="text-red-500 text-xs font-normal">*</span>
             )}
           </label>
         )}
@@ -42,7 +42,7 @@ export const BaseTextArea = forwardRef<HTMLTextAreaElement, BaseTextAreaProps>(
             required={false}
             ref={ref}
             className={clsx(
-              "placeholder:text-gray-400 text-black border-gray-300 block w-full rounded border p-4 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-1",
+              "placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0",
               error
                 ? "enabled:border-red-500 enabled:focus:ring-red-500"
                 : "enabled:focus:border-primary enabled:focus:ring-primary",

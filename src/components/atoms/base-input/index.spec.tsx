@@ -40,6 +40,18 @@ describe("BaseInput", () => {
     expect(screen.getByText("Error")).toBeInTheDocument();
   });
 
+  it("should render a text input with prefix", () => {
+    render(<BaseInput label="Label" type="text" hasPrefix />);
+
+    expect(screen.getByRole("textbox")).toBeInTheDocument();
+  });
+
+  it("should render a text input with prefix and error message", () => {
+    render(<BaseInput label="Label" type="text" hasPrefix error="Error" />);
+
+    expect(screen.getByRole("textbox")).toBeInTheDocument();
+  });
+
   it("should render a password input with action icon eye and onClick event", async () => {
     const onClick = jest.fn();
 
@@ -88,6 +100,14 @@ describe("BaseInput", () => {
   it("should render a text input with error message", () => {
     const { container } = render(
       <BaseInput label="Label" type="text" error="Error" />,
+    );
+
+    expect(container).toMatchSnapshot();
+  });
+
+  it("should render a text input with error message", () => {
+    const { container } = render(
+      <BaseInput label="Label" type="text" hasPrefix />,
     );
 
     expect(container).toMatchSnapshot();

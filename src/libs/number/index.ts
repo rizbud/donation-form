@@ -1,4 +1,4 @@
 // Format number with separator
-export const formatNumber = (number: number, separator = ".") => {
-  return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, separator);
+export const formatNumber = (number: number | string, separator = ".") => {
+  return String(number).replace(/\B(?=(\d{3})+(?!\d))/g, separator);
 };

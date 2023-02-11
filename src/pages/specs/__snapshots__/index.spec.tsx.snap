@@ -4,150 +4,239 @@ exports[`Index renders successfully 1`] = `
 <body>
   <div>
     <main
-      class="main"
+      class="font-sans min-h-screen bg-slate-100 overflow-x-hidden lg:overflow-x-auto"
     >
       <div
-        class="description"
+        class="w-full xl:max-w-screen-lg 2xl:max-w-screen-xl mx-auto my-5"
       >
-        <p>
-          Get started by editing 
-          <code
-            class="code"
-          >
-            src/pages/index.tsx
-          </code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            By
-             
-            <img
-              alt="Vercel Logo"
-              class="vercelLogo"
-              data-nimg="1"
-              decoding="async"
-              height="24"
-              src="/vercel.svg"
-              style="color: transparent;"
-              width="100"
-            />
-          </a>
-        </div>
-      </div>
-      <div
-        class="center"
-      >
-        <img
-          alt="Next.js Logo"
-          class="logo"
-          data-nimg="1"
-          decoding="async"
-          height="37"
-          src="/next.svg"
-          style="color: transparent;"
-          width="180"
-        />
         <div
-          class="thirteen"
+          class="max-w-xl mx-auto py-4"
         >
-          <img
-            alt="13"
-            data-nimg="1"
-            decoding="async"
-            height="31"
-            src="/thirteen.svg"
-            style="color: transparent;"
-            width="40"
-          />
+          <div
+            class="px-6 rounded-lg gap-6"
+          >
+            <form>
+              <div
+                class="bg-white shadow-md pt-6 pb-1 px-6 rounded-lg mb-6 relative"
+              >
+                <div
+                  class="mb-6"
+                >
+                  <label
+                    class="block text-sm font-semibold text-slate-800 mb-1"
+                  >
+                    Amount
+                    <span
+                      class="text-red-500 text-xs font-normal"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="relative flex items-center"
+                  >
+                    <span
+                      class="absolute inset-y-0 left-0 flex items-center pb-px"
+                    >
+                      $
+                    </span>
+                    <input
+                      aria-invalid="false"
+                      aria-label="Amount"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary pl-4"
+                      placeholder="10"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mb-6"
+                >
+                  <label
+                    class="block text-sm font-semibold text-slate-800 mb-1"
+                  >
+                    Name
+                    <span
+                      class="text-red-500 text-xs font-normal"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="relative flex items-center"
+                  >
+                    <input
+                      aria-invalid="false"
+                      aria-label="Name"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      name="name"
+                      placeholder="John Doe"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mb-6"
+                >
+                  <label
+                    class="block text-sm font-semibold text-slate-800 mb-1"
+                  >
+                    Email
+                    <span
+                      class="text-red-500 text-xs font-normal"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="relative flex items-center"
+                  >
+                    <input
+                      aria-invalid="false"
+                      aria-label="Email"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      name="email"
+                      placeholder="johndoe@gmail.com"
+                      type="email"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mb-6"
+                >
+                  <label
+                    class="block text-sm font-semibold text-slate-800 mb-1"
+                  >
+                    ID Number (NRIC/FIN)
+                    <span
+                      class="text-red-500 text-xs font-normal"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="relative flex items-center"
+                  >
+                    <input
+                      aria-invalid="false"
+                      aria-label="ID Number (NRIC/FIN)"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      maxlength="9"
+                      name="id_number"
+                      placeholder="S1234567A"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mb-6"
+                >
+                  <label
+                    class="block text-sm font-semibold text-slate-800 mb-1"
+                  >
+                    Postal Code
+                    <span
+                      class="text-red-500 text-xs font-normal"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="relative flex items-center"
+                  >
+                    <input
+                      aria-invalid="false"
+                      aria-label="Postal Code"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      maxlength="6"
+                      name="postal_code"
+                      placeholder="123456"
+                      type="number"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mb-6"
+                >
+                  <label
+                    class="block text-sm font-semibold text-slate-800 mb-1"
+                  >
+                    Unit Number
+                    <span
+                      class="text-red-500 text-xs font-normal"
+                    >
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="relative flex items-center"
+                  >
+                    <input
+                      aria-invalid="false"
+                      aria-label="Unit Number"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      name="unit_number"
+                      placeholder="123-45"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mb-6"
+                >
+                  <label
+                    class="block text-sm font-semibold text-slate-800 mb-2"
+                  >
+                    Address
+                  </label>
+                  <div
+                    class="relative"
+                  >
+                    <textarea
+                      aria-invalid="false"
+                      aria-label="Address"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      name="address"
+                      placeholder="Street Name
+Block Number, Building Name"
+                      rows="2"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="mb-6"
+                >
+                  <label
+                    class="block text-sm font-semibold text-slate-800 mb-2"
+                  >
+                    Remarks
+                  </label>
+                  <div
+                    class="relative"
+                  >
+                    <textarea
+                      aria-invalid="false"
+                      aria-label="Remarks"
+                      class="placeholder:text-secondary text-black border-secondary block w-full border-0 border-b px-0 py-1 text-base leading-6 enabled:focus:outline-none enabled:focus:ring-0 enabled:focus:border-primary enabled:focus:ring-primary"
+                      name="remarks"
+                      placeholder="Optional"
+                      rows="1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  class="bg-primary text-white font-regular rounded-lg px-5 py-3 hover:opacity-80 disabled:opacity-50 w-full"
+                  type="submit"
+                >
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
-      <div
-        class="grid"
-      >
-        <a
-          class="card"
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <h2
-            class="className"
-          >
-            Docs 
-            <span>
-              -&gt;
-            </span>
-          </h2>
-          <p
-            class="className"
-          >
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-        <a
-          class="card"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <h2
-            class="className"
-          >
-            Learn 
-            <span>
-              -&gt;
-            </span>
-          </h2>
-          <p
-            class="className"
-          >
-            Learn about Next.js in an interactive course with quizzes!
-          </p>
-        </a>
-        <a
-          class="card"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <h2
-            class="className"
-          >
-            Templates 
-            <span>
-              -&gt;
-            </span>
-          </h2>
-          <p
-            class="className"
-          >
-            Discover and deploy boilerplate example Next.js projects.
-          </p>
-        </a>
-        <a
-          class="card"
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <h2
-            class="className"
-          >
-            Deploy 
-            <span>
-              -&gt;
-            </span>
-          </h2>
-          <p
-            class="className"
-          >
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
       </div>
     </main>
   </div>
